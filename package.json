@@ -1,0 +1,9 @@
+{
+  "name": "CSC_305",
+  "version": "1.0.0",
+  "description": "A series of basic algorithms implemented with google dart language for CSC 305",
+  "main": "main.dart",
+  "repository": "https://github.com/Alabs02/csc-305-group-4.git",
+  "author": "Alabura Usman<alabson.inc@gmail.com> D",
+  "license": "MIT"
+}
