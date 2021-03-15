@@ -2,6 +2,9 @@ import 'dart:async';
 import 'dart:io';
 
 import 'components/linear_array/linear_arr.dart';
+import 'components/queue/queue.dart';
+import 'components/recursion/recursion.dart';
+import 'components/stack/stack.dart';
 import 'templates/menu.dart';
 
 bool quit = false;
@@ -55,11 +58,11 @@ void menu() {
       break;
     case 2:
       msg("Awesome, you've selected ${menuItems[1]}");
-      // linear
+      queue();
       break;
     case 3:
       msg("Awesome, you've selected ${menuItems[2]}");
-      // linear
+      stack();
       break;
     case 4:
       msg("Awesome, you've selected ${menuItems[3]}");
@@ -71,7 +74,7 @@ void menu() {
       break;
     case 6:
       msg("Awesome, you've selected ${menuItems[5]}");
-      // linear
+      recursion();
       break;
     case 7:
       msg("Awesome, you've selected ${menuItems[6]}");

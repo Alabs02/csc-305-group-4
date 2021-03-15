@@ -13,36 +13,35 @@ void queue() {
       break;
     case 2:
       msg("Great, you've selected ${queueItems[1]} under ${menuItems[1]}");
-      // execute insertion
+      // execute enqueue
       break;
     case 3:
       msg("Great, you've selected ${queueItems[2]} under ${menuItems[1]}");
-      // execute deletion
+      // execute dequeue
       break;
     case 4:
       msg("Great, you've selected ${queueItems[3]} under ${menuItems[1]}");
-      // execute traverse
+      // execute is empty
       break;
     case 5:
       msg("Great, you've selected ${queueItems[4]} under ${menuItems[1]}");
-      // execute traverse
+      // execute is full
       break;
-    case 5:
+    case 6:
       msg("Great, you've selected ${queueItems[5]} under ${menuItems[1]}");
-      // execute traverse
+      // execute peek
       break;
-    case 5:
+    case 7:
       msg("Great, you've selected ${queueItems[6]} under ${menuItems[1]}");
-      // execute traverse
+      // execute print all
       break;
-    case 5:
-      // msg("Great, you've selected ${queueItems[7]} under ${menuItems[1]}");
-      close();
-      break;
-    case 5:
+    case 8:
       close();
       break;
     default:
+      msg("😒 The number you enter does not exits, please try other available options!");
+      forLoop(queueItems);
+      choice = userInput("Please select a valid number:");
       break;
   }
 }

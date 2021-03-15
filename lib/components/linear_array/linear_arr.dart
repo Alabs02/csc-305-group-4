@@ -27,6 +27,9 @@ void linearArray() {
       close();
       break;
     default:
+      msg("😒 The number you enter does not exits, please try other available options!");
+      forLoop(linearItems);
+      choice = userInput("Please select a valid number:");
       break;
   }
 }

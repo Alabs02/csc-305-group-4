@@ -31,3 +31,14 @@ List<String> queueItems = [
   "PRINT ALL",
   "QUIT"
 ];
+
+List<String> stackItems = [
+  "MAIN MENU",
+  "PUSH",
+  "POP",
+  "ISEMPTY",
+  "PRINT ALL",
+  "QUIT"
+];
+
+List<String> recursionItems = ["MAIN MENU", "PRINT FUN", "QUIT"];
